@@ -19,17 +19,23 @@ pontos fortes, pontos fracos e aplicações comuns. Vamos mergulhar nesse mundo 
 7. **Programação Lógica (PL)**
 8. **Programação Orientada a Aspectos (POA)**
 
+Aqui está o card completado com detalhamento e exemplos de código:
+
+
 Programação Orientada a Objetos (POO)
 ----------------------------------------------------------------------------------------------------------------------------
 A POO organiza o código em objetos que têm atributos e métodos, facilitando a modelagem do mundo real.
 
+<details>
+  <summary>Recomendação de vídeos</summary>
 
-<video controls width="500">
-  <source src="https://youtu.be/QY0Kdg83orY?si=sLG53DGTrIIgqYqn" type="video/mp4">
-  acesse o video <a =src="https://youtu.be/QY0Kdg83orY?si=sLG53DGTrIIgqYqn">Programação orientada a objetos</a>
-</video>
+[![Assista ao vídeo](https://i.ytimg.com/vi/pbb0jzXt_xA/sddefault.jpg)](https://youtu.be/pbb0jzXt_xA)
+[![Assista ao vídeo](https://i.ytimg.com/vi/QY0Kdg83orY/sddefault.jpg)](https://youtu.be/QY0Kdg83orY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QY0Kdg83orY?si=_gj-qGB7AOrsNzLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+
+<details>
+  <summary>Pontos fortes X Pontos fracos</summary>
 
 ### Pontos Fortes:
 - Reutilização de código através de herança e polimorfismo.
@@ -41,6 +47,9 @@ A POO organiza o código em objetos que têm atributos e métodos, facilitando a
 - Pode levar a hierarquias de classes complexas e acoplamento forte.
 - Overhead de memória e desempenho em comparação com abordagens mais simples.
 - Nem todos os problemas se encaixam bem no paradigma de orientação a objetos.
+
+</details>
+
 ### Linguagens mais Populares:
 - Java
 - C++
@@ -51,6 +60,50 @@ A POO organiza o código em objetos que têm atributos e métodos, facilitando a
 - Jogos
 - Sistemas de gerenciamento de banco de dados (SGBDs)
 - Sistemas embarcados
+
+<details>
+  <summary>Detalhamento</summary>
+
+A Programação Orientada a Objetos (POO) é baseada no conceito de "objetos", que podem conter dados na forma de campos (também conhecidos como atributos ou propriedades) e códigos, na forma de procedimentos (métodos ou funções). Esses objetos são essenciais para modelar o mundo real, permitindo que os desenvolvedores organizem e estruturem seus programas de uma maneira mais intuitiva e fácil de entender.
+
+</details>
+
+<details>
+  <summary>Códigos de exemplo</summary>
+
+#### Exemplo em Java:
+```java
+// Definição de uma classe Pessoa
+public class Pessoa {
+    // Atributos da classe Pessoa
+    private String nome;
+    private int idade;
+
+    // Método construtor da classe Pessoa
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    // Método para exibir informações da pessoa
+    public void mostrarInformacoes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+    }
+
+    // Método principal (método de entrada)
+    public static void main(String[] args) {
+        // Criando uma nova instância da classe Pessoa
+        Pessoa pessoa1 = new Pessoa("João", 30);
+        // Chamando o método para exibir informações da pessoa
+        pessoa1.mostrarInformacoes();
+    }
+}
+```
+
+</details>
+
+Este card agora inclui informações detalhadas sobre Programação Orientada a Objetos e um exemplo de código em Java demonstrando a criação de uma classe Pessoa e sua utilização.
 
 Programação Imperativa (PI)
 -----------------------------------------------------------------------------------------------------------------------
