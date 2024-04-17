@@ -22,6 +22,15 @@ pontos fortes, pontos fracos e aplicações comuns. Vamos mergulhar nesse mundo 
 Programação Orientada a Objetos (POO)
 ----------------------------------------------------------------------------------------------------------------------------
 A POO organiza o código em objetos que têm atributos e métodos, facilitando a modelagem do mundo real.
+
+
+<video controls width="500">
+  <source src="https://youtu.be/QY0Kdg83orY?si=sLG53DGTrIIgqYqn" type="video/mp4">
+  acesse o video <a =src="https://youtu.be/QY0Kdg83orY?si=sLG53DGTrIIgqYqn">Programação orientada a objetos</a>
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QY0Kdg83orY?si=_gj-qGB7AOrsNzLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Pontos Fortes:
 - Reutilização de código através de herança e polimorfismo.
 - Encapsulamento que protege os dados e oculta a implementação.
